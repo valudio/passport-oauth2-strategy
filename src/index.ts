@@ -14,7 +14,7 @@ export class Strategy extends passport.Strategy {
   private _verify: Function;
   private _passReqToCallBack: boolean;
 
-  constructor(options: Function | IStrategyOptions, verify: Function) {
+  constructor(options: Function | IStrategyOptions, verify?: Function) {
     super();
     if (typeof options === 'function') {
       verify = options;

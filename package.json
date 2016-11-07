@@ -1,6 +1,6 @@
 {
   "name": "passport-oauth2-strategy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This passport strategy is based in passport-oauth2-client-password but the Client Secret is only mandatory when the grant type is authorization_code.",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
